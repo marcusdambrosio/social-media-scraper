@@ -4,6 +4,7 @@ import sys
 import datetime as dt
 
 def combine_data(fi):
+    '''COMBINE ALL SUBREDDIT DATA TO MASTER CSV'''
     master = pd.DataFrame()
     for file in os.listdir('DATA'):
         if type(fi) != str:
