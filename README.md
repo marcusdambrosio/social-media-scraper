@@ -9,4 +9,4 @@ A lot of this is unoptimized and undocumented spaghetti code but it got the job 
 
 Hope you enjoy the project,
 
-Marcus
+Marcus, James, Kelsey, and Devin
