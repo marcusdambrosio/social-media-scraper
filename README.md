@@ -7,6 +7,11 @@ https://drive.google.com/drive/folders/1l7mxcP6thN5dBGzuBzgHJPsD4lQuBszn?usp=sha
 
 A lot of this is unoptimized and undocumented spaghetti code but it got the job done and I do not have it in me to fix everything up since this was the very last think I had to do before graduating.
 
+Here is a brief guide to the contents:<br>
+\reddit, \twitter --> parent folders for the respective data sources <br>
+\reddit\get_price_data --> pulls data for whatever ticker and timeframe you need, saving to \reddit\PRICEDATA<br>
+\reddit\doge_
+
 Hope you enjoy the project,
 
 Marcus, James, Kelsey, and Devin
