@@ -12,21 +12,6 @@ api = PushshiftAPI(reddit)
 SUBREDDIT = 'wallstreetbets'
 KEYWORD = 'dogecoin'
 
-def pull_post_data(subreddits):
-    data = {}
-    for sub in subreddits:
-        subDF = pd.DataFrame(columns = ['title', 'body', 'time', 'numComments', 'score', 'url', 'upvoteRatio'])
-        currSub = reddit.subreddit(sub)
-        newPosts = currSub.top('all', limit = 1000000)
-        for post in newPosts:
-            subDF = subDF.append({'title': post.title,
-                                 'body': post.selftext,
-                                 'time': post.created_utc,
-                                 'numComments': post.num_comments,
-                                 'score': post.score,
-                                 'url': post.permalink,
-                                 'upvoteRatio': post.upvote_ratio}, ignore_index = True)
-        data[sub] = subDF
 
 tic = dt.datetime.today()
 start = int(dt.datetime(2021, 4, 26).timestamp())
