@@ -1,11 +1,8 @@
-# FINAN5530_Final
+# Webscraping Social Media for Market Sentiment
 
-### 5530 Final Project Code for James Bullock, Marcus D'Ambrosio, Kelsey Heffernan, Devin Valiquett
 
 This collection of code will pull reddit and twitter data when given keywords and/or subreddits to search. Additionally, it contains a lot of data visualization code and the results of this data vis in the "GRAPHS" folders. The actual reddit data that was pulled for use was too big to upload to github so it may be found here:
 https://drive.google.com/drive/folders/1l7mxcP6thN5dBGzuBzgHJPsD4lQuBszn?usp=sharing
-
-A lot of this is unoptimized and undocumented spaghetti code but it got the job done and I do not have it in me to fix everything up since this was the very last think I had to do before graduating.
 
 Here is a brief guide to the contents:<br>
 \reddit, \twitter --> parent folders for the respective data sources <br>
@@ -19,6 +16,3 @@ Here is a brief guide to the contents:<br>
 \twitter\main --> main file to pull tweets, later found out that this is useless because limiter is so low<br>
 \twitter\celebrity_tweets --> visualization for celeb tweets effects on price and volume movement 
 
-Hope you enjoy the project,
-
-Marcus, James, Kelsey, and Devin
